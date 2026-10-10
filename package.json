@@ -1,0 +1,21 @@
+{
+  "name": "ai-assistent",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^44.7.0",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/electron": "^1.4.38"
+  }
+}
